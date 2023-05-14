@@ -1,0 +1,10 @@
+import SpriteSymbol from "../../../node_modules/svg-baker-runtime/browser-symbol.js";
+import sprite from "../../../node_modules/svg-sprite-loader/runtime/browser-sprite.build.js";
+var symbol = new SpriteSymbol({
+  "id": "icon-dtfield_array",
+  "use": "icon-dtfield_array-usage",
+  "viewBox": "0 0 1024 1024",
+  "content": "<symbol class=\"icon\" viewBox=\"0 0 1024 1024\" xmlns=\"http://www.w3.org/2000/svg\" id=\"icon-dtfield_array\"><path d=\"M271.68 671.04a45.44 45.44 0 1 0 90.88 0 45.44 45.44 0 1 0-90.88 0zM459.2 671.04a45.44 45.44 0 1 0 90.88 0 45.44 45.44 0 1 0-90.88 0zM646.72 671.04a45.44 45.44 0 1 0 90.88 0 45.44 45.44 0 1 0-90.88 0z\" p-id=\"19096\" /><path d=\"M114.24 227.52h158.08V288h-85.44v471.04h85.44v61.76H114.24zM736 759.04h86.4V288H736v-60.48h160V820.8H736z\" p-id=\"19097\" /></symbol>"
+});
+var result = sprite.add(symbol);
+export default symbol

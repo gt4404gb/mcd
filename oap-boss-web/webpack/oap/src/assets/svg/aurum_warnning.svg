@@ -1,0 +1,10 @@
+import SpriteSymbol from "../../../node_modules/svg-baker-runtime/browser-symbol.js";
+import sprite from "../../../node_modules/svg-sprite-loader/runtime/browser-sprite.build.js";
+var symbol = new SpriteSymbol({
+  "id": "icon-aurum_warnning",
+  "use": "icon-aurum_warnning-usage",
+  "viewBox": "0 0 1024 1024",
+  "content": "<symbol class=\"icon\" viewBox=\"0 0 1024 1024\" xmlns=\"http://www.w3.org/2000/svg\" id=\"icon-aurum_warnning\"><path d=\"M511.530667 52.458667c-254.165333 0-459.264 205.12-459.264 459.264 0 254.144 205.141333 459.242667 459.264 459.242666 254.101333 0 459.242667-205.098667 459.242666-459.242666-0.021333-254.144-205.141333-459.264-459.242666-459.264z m0 734.805333c-24.490667 0-45.930667-21.418667-45.930667-45.909333s21.418667-45.930667 45.930667-45.930667c24.469333 0 45.909333 21.44 45.909333 45.930667s-21.44 45.909333-45.909333 45.909333z m45.888-198.997333c0 24.448-21.44 45.909333-45.930667 45.909333-24.469333 0-45.930667-21.461333-45.930667-45.909333V282.069333c0-24.490667 21.418667-45.930667 45.930667-45.930666s45.930667 21.44 45.930667 45.930666v306.197334z\" fill=\"#1EA0FE\" p-id=\"4864\" /></symbol>"
+});
+var result = sprite.add(symbol);
+export default symbol

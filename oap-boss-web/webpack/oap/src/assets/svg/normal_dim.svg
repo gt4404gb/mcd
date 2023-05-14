@@ -1,0 +1,10 @@
+import SpriteSymbol from "../../../node_modules/svg-baker-runtime/browser-symbol.js";
+import sprite from "../../../node_modules/svg-sprite-loader/runtime/browser-sprite.build.js";
+var symbol = new SpriteSymbol({
+  "id": "icon-normal_dim",
+  "use": "icon-normal_dim-usage",
+  "viewBox": "0 0 1024 1024",
+  "content": "<symbol class=\"icon\" viewBox=\"0 0 1024 1024\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"icon-normal_dim\"><defs><style type=\"text/css\">@font-face { font-family: feedback-iconfont; src: url(\"//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff2?t=1630033759944\") format(\"woff2\"), url(\"//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff?t=1630033759944\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1031158_u69w8yhxdu.ttf?t=1630033759944\") format(\"truetype\"); }\n</style></defs><path d=\"M896 71.68H129.024c-33.792 0-61.44 27.648-61.44 61.44v757.76c0 33.792 27.648 61.44 61.44 61.44h765.952c33.792 0 60.416-26.624 62.464-61.44V133.12c0-33.792-27.648-61.44-61.44-61.44z m-766.976 40.96h766.976c11.264 0 20.48 9.216 20.48 20.48v194.56H108.544V133.12c0-11.264 9.216-20.48 20.48-20.48z m257.024 514.048V368.64h251.904v258.048H386.048z m251.904 40.96V911.36H386.048V667.648h251.904z m-292.864-40.96H108.544V368.64h236.544v258.048zM678.912 368.64h237.568v258.048H678.912V368.64zM108.544 890.88V667.648h236.544V911.36H129.024c-11.264 0-20.48-9.216-20.48-20.48z m786.432 20.48H678.912V667.648h237.568v222.208c0 12.288-10.24 21.504-21.504 21.504z\" p-id=\"4865\" fill=\"#515151\" /></symbol>"
+});
+var result = sprite.add(symbol);
+export default symbol

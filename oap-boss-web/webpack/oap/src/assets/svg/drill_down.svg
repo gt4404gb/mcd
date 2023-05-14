@@ -1,0 +1,10 @@
+import SpriteSymbol from "../../../node_modules/svg-baker-runtime/browser-symbol.js";
+import sprite from "../../../node_modules/svg-sprite-loader/runtime/browser-sprite.build.js";
+var symbol = new SpriteSymbol({
+  "id": "icon-drill_down",
+  "use": "icon-drill_down-usage",
+  "viewBox": "0 0 1024 1024",
+  "content": "<symbol class=\"icon\" viewBox=\"0 0 1024 1024\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" id=\"icon-drill_down\"><defs><style type=\"text/css\">@font-face { font-family: feedback-iconfont; src: url(\"//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff2?t=1630033759944\") format(\"woff2\"), url(\"//at.alicdn.com/t/font_1031158_u69w8yhxdu.woff?t=1630033759944\") format(\"woff\"), url(\"//at.alicdn.com/t/font_1031158_u69w8yhxdu.ttf?t=1630033759944\") format(\"truetype\"); }\n</style></defs><path d=\"M90.112 120.832v190.976h190.464V120.832H90.112z m126.976 128H153.088V184.832h64v64zM518.144 712.704v191.488h416.256v-191.488h-416.256z m351.232 127.488h-286.72v-64h286.72v64zM365.056 120.832v190.976h568.32V120.832h-568.32z m504.32 128h-440.32V184.832h440.32v64zM518.144 416.768v191.488h415.744V416.768h-415.744z m350.208 127.488h-286.208V480.256h286.208v64zM153.088 311.808h64v528.384H153.088z\" p-id=\"2498\" fill=\"#515151\" /><path d=\"M217.088 776.192h301.568v64H217.088zM217.088 482.816h301.568v63.488H217.088z\" p-id=\"2499\" fill=\"#515151\" /></symbol>"
+});
+var result = sprite.add(symbol);
+export default symbol

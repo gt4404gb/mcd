@@ -1,0 +1,45 @@
+var map = {
+	"./arrow_to_down.svg": 1387,
+	"./aurum_warnning.svg": 1388,
+	"./bureport.svg": 1389,
+	"./database.svg": 1390,
+	"./dbtable.svg": 1391,
+	"./desc.svg": 1392,
+	"./diversion.svg": 1393,
+	"./drill_down.svg": 1394,
+	"./dtfield_array.svg": 1395,
+	"./dtfield_date.svg": 1396,
+	"./dtfield_decimal.svg": 1397,
+	"./dtfield_default.svg": 1398,
+	"./dtfield_int.svg": 1399,
+	"./dtfield_string.svg": 1400,
+	"./excel_icon.svg": 1401,
+	"./folder.svg": 1402,
+	"./format_shua.svg": 1403,
+	"./framework.svg": 1404,
+	"./gcpch.svg": 1405,
+	"./is_new.svg": 1406,
+	"./normal_dim.svg": 1407,
+	"./rgistration.svg": 1408,
+	"./user_tag.svg": 1409
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 1386;
